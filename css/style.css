@@ -1,0 +1,86 @@
+body{
+	color: white;
+	background-image: url(../images/glaxy.jpg),
+	url(../images/image.jpg),
+	url(../images/glaxy.jpg),
+	url(../images/image.jpg),
+	url(../images/glaxy.jpg),
+    url(../images/image.jpg);
+	background-repeat: repeat-x ;
+	background-size: 1300px,1300px,1300px,1300px,1300px,1300px;
+	background-position: 0px 0px,0px 850px,0px 1700px,
+	0px 2550px,0px 3400px,0px 4250px;
+	background-attachment: scroll;
+}
+h2{
+	border: solid 5px red;
+}
+.bg{
+	background: black;
+	color: yellow;
+}
+.color{
+	background: blue;
+	color:red;
+}
+#bg{
+	background: orange;
+}
+div{
+	background-color: green;
+}
+div.first {
+	opacity: 0.1;
+}
+div.second {
+	opacity: 0.1;
+}
+div.third {
+	opacity: 0.5;
+}
+div.forth{
+	opacity: 0.9;
+}
+h3{
+	border: white;
+	border-style: dotted solid;
+	border-width: 4px;
+}
+.bordera{
+	border: white;
+	border-style: solid;
+	border-width: 10px 5px;
+	border-radius: 10px;
+}
+.borderb{
+	border-color: white rgb(255, 0, 0) white red;
+	border-style: solid;
+	border-width: 2px 5px 10px 15px;
+}
+
+.borderc{
+	border-left: 6px solid red;
+	background-color: yellow;
+	color: black;
+}
+.borderd{
+	width: 400px;
+	margin: auto;
+	border: 1px solid white;
+}
+.bordere{
+	color: white;
+	background-color: black;
+	padding: 10px 20px 30px 40px;
+	border: 10px solid white;
+	margin: 30px 50px 30px 50px ;
+	height: 150px;
+	
+}
+
+iframe{
+	width: 1100px;
+	height: 400px;
+	border: dotted 4px blue;
+	
+}
